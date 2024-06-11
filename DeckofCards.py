@@ -9,6 +9,7 @@ class Deck:
     def __init__(self):
         self.ranks = ['Ace', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'Jack', 'Queen', 'king']
         self.suits = ['Hearts', 'Diamonds', 'Clubs', 'Spades']
+        self.reset()
         
 
     def reset(self):
@@ -48,6 +49,9 @@ if dealt_cards:
             
 remaining_count = deck.count()
 print(f"Remaining cards in the deck: {remaining_count}")
+
+print("Good luck")
+
 
             
 
