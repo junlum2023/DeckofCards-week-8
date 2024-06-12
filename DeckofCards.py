@@ -42,10 +42,11 @@ for _ in range(num_cards_to_deal):
         dealt_cards.append(f"{card.rank} of {card.suit}")
     else:
         print("No more cards in the deck")
-if dealt_cards:  
-        print("Dealt cards:")
-        for card in dealt_cards:
-            print(card)
+
+if dealt_cards:
+    print("Dealt cards:")
+    for card in dealt_cards:
+        print(card)
             
 remaining_count = deck.count()
 print(f"Remaining cards in the deck: {remaining_count}")
